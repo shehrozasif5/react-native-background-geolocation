@@ -28,6 +28,7 @@ allprojects {
         // https://mvnrepository.com/artifact/com.facebook.react/react-native?repo=springio-plugins-release
         maven {
             url 'http://repo.spring.io/plugins-release/'
+            allowInsecureProtocol = true
             name 'Spring Plugins'
         }
     }
